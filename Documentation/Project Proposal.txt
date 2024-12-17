@@ -1,0 +1,24 @@
+CMSC451 - CS24-602  IoT Enabled Gait Monitoring System for Proactive Health Monitoring and Prediction Project Proposal
+
+Problem Statement
+	
+Design and develop an integrated health monitoring ecosystem centered around a 3D-printed wearable device retrofitted with Bluetooth connectivity and specialized sensors. This wearable device is dedicated to gait analysis, utilizing sensors to collect and transmit data to a mobile application via Bluetooth technology. The mobile application serves as a user interface for real-time gait analysis, while the collected data is securely processed and analyzed in the cloud using machine learning algorithms.
+The primary objective of this project is to create a comprehensive solution that enables users to monitor their gait patterns, collect health-related data, and receive predictive insights. By leveraging cloud-based data processing and machine learning models, the system will provide valuable feedback and recommendations based on the user's gait data, empowering individuals to proactively manage their health and well-being.
+
+
+Business and Functional Requirements
+ECE team will be working on cleaning and refining hardware aspects of the shank mounted system and instrumented cane.
+The CS team will work on an app that can collect data and provide some basic feedback/summary and then push all raw data to a cloud based system.
+The shank mounted system will prove movement (gyroscope) and EMG data. Instrumented cane will provide movement (gyroscope) and loading data. We should target a higher sampling frequency (200 Hz or 250 Hz).
+Shank mounted system should target at least the main muscle in the leg (Gastrocnemius and/ Soleus). We want to target the muscle that provides the best data about EMG during the gait cycle. 
+The ECE team might need to improve existing shank mounted 3D design as well as cane 3D design to hold an amplifier, and a rechargeable battery. 
+The CS team should advise/decide we need to use BLE or Bluetooth for wireless communication.
+We are going to target if we can publish a paper resulting from the project. 
+The CS team will work on an algorithm to segment gait data. 
+
+Stakeholders
+People with chronic diseases 
+The taxpayer
+VCU Research Department
+
+
